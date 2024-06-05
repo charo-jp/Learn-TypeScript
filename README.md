@@ -11,3 +11,14 @@ A compiler automatically checks whether type defined in a program is what is int
 2. Documentation and Autocomplete
 With proper comments and namings, there is no need for developers to go through inside functions. 
 
+## How to get started
+1. Create a node project 
+```
+npm init --yes
+```
+2. Install TypeScript
+```
+npm install --save-dev typescript @types/node
+```
+
+ 
