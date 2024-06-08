@@ -16,6 +16,9 @@ console.log(message); // to generate a js file, type "npx tsc"
 const bignum: bigint = (123n + 456n) * 2n;
 console.log(bignum);
 const bigint2: bigint = BigInt("1340");
+
+// Combining types union types
+const userID: string | number = "abc1";
 // Error: const bigint3: bigint = BigInt("charo");
 
 const secret = process.env.SECRET ?? "default";
